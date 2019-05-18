@@ -1,0 +1,5 @@
+# files to ignore
+node_modules
+package-lock.json
+#  ignore sass file inside
+sass/

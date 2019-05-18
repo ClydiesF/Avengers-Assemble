@@ -1,0 +1,53 @@
+nav {
+  background: lightblue;
+  padding: 20px; }
+  nav a {
+    height: 100%;
+    width: 100%;
+    margin: 0 15px; }
+    nav a:hover {
+      color: grey; }
+
+.jumbotron {
+  margin-bottom: 0; }
+
+#hero-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: blanchedalmond;
+  height: 300px; }
+  #hero-container .hero-box {
+    border-radius: 5px;
+    width: 30%;
+    height: 90%;
+    margin: 1.6%;
+    border: solid 1px black;
+    overflow: hidden; }
+    #hero-container .hero-box .img-box {
+      height: 60%;
+      width: 100%;
+      background-color: lightcoral; }
+    #hero-container .hero-box .cap {
+      background-image: url("/img/captain america.png");
+      background-size: cover; }
+    #hero-container .hero-box .im {
+      background-image: url("/img/ironman.jpg");
+      background-size: cover; }
+    #hero-container .hero-box .thor {
+      background-image: url("/img/thor.png");
+      background-size: cover; }
+    #hero-container .hero-box .title {
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 500; }
+    #hero-container .hero-box .text {
+      text-align: center; }
+    #hero-container .hero-box hr {
+      margin: 0; }
+
+footer {
+  background-color: gray;
+  height: 200px;
+  color: white; }
